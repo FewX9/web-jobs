@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FxJobs - เว็บไซต์หางาน</title>
+
+    <link rel="icon" href="/assets/image/logo.png" type="image/png" sizes="16x16">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.2.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="/assets/style/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-[#7091F5] pb-10">
+    <nav class="bg-[#4E66AC] text-white p-4 drop-shadow-md sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+
+            <a href="#" class="text-2xl font-bold" data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
+                <img src="/assets/image/logo.png" alt="Logo" class="w-full h-10 mr-2 inline-block drop-shadow-md">
+            </a>
+
+            <ul class="space-x-4" data-aos="fade-left" data-aos-delay="50" data-aos-duration="1000">
+                <li class="inline-block">
+                    <a href="/" class="hover:text-[#CDD9FC]"><i class="fa-solid fa-house"></i> หน้าหลัก</a>
+                </li>
+                <li class="inline-block">
+                    <a href="/jobs.html" class="hover:text-[#CDD9FC]"><i class="fa-solid fa-briefcase"></i> ตำแหน่งงาน</a>
+                </li>
+                <li class="inline-block">
+                    <a href="/course.html" class="hover:text-[#CDD9FC]"><i class="fa-solid fa-file-certificate"></i> จัดอบรม</a>
+                </li>
+                <li class="inline-block">
+                    <a href="/contact.html" class="hover:text-[#CDD9FC]"><i class="fa-solid fa-phone"></i> ติดต่อ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="bg-[#E4F1FF] pb-14 m-auto">
+        <div class="container mx-auto">
+            <div class="grid grid-cols-5">
+                <img src="/assets/image/software-dev.png" alt="banner"
+                    class="animate__animated animate__pulse animate__infinite animate__slow col-span-2"
+                    data-aos="fade-right" data-aos-delay="50" data-aos-duration="1000">
+                <div class="col-span-3 bg-[#ffffff] m-10 p-5 rounded-lg drop-shadow-lg" data-aos="flip-up"
+                    data-aos-delay="50" data-aos-duration="1000">
+                    <h1 class="text-4xl font-bold text-[#0c4a6e]">
+                        เว็บไซต์ประกาศหางาน</h1>
+                    <ul class="ms-10 mt-3 text-xl text-[#0c4a6e] list-disc">
+                        <li class="my-1">มีงานหลากหลายตามต้องการ</li>
+                        <li class="my-1">จัดอบรม และสอบ ใบ certify</li>
+                        <li class="my-1">ตำแหน่งงานเยอะ เงินเดือนสูง</li>
+                        <li class="my-1">มีงานจากบริษัทชื่อดังทั่วโลก</li>
+                        <li class="my-1">ติดต่อสอบถามได้ 24 ชม.</li>
+                    </ul>
+                    <hr class="my-5">
+                    <div class="text-xl text-xl text-[#0c4a6e] text-center" data-aos="fade-right" data-aos-delay="500"
+                        data-aos-duration="1000">งานเยอะ เงินดี ต้องที่ <i
+                            class="fa-sharp fa-solid fa-location-dot"></i> <a href="/"
+                            class="font-bold underline underline-offset-4">JobsFX</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="custom-shape-divider-top-1695324447">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path
+                d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+                opacity=".25" class="shape-fill"></path>
+            <path
+                d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+                opacity=".5" class="shape-fill"></path>
+            <path
+                d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+                class="shape-fill"></path>
+        </svg>
+    </div>
+
+    <div class="container mx-auto my-16">
+        <div class="text-center text-4xl text-[#080559]">ตำแหน่งงาน</div>
+        <div class="grid grid-cols-2 mt-10 gap-4">
+
+            <div class="bg-[#ffffff] rounded-lg p-3 grid grid-cols-5 gap-12 drop-shadow-md" data-aos="fade-right"
+                data-aos-delay="100" data-aos-duration="1000">
+                <div class="col-span-2 flex items-center">
+                    <div>
+                        <img src="/assets/image/starbaw.png" alt="logo">
+                    </div>
+                </div>
+                <div class="col-span-3">
+                    <div class="text-2xl font-bold text-[#080559] font-bold underline underline-offset-4 mb-3">Starbaw
+                    </div>
+                    <div class="text-xl text-[#080559]">ตำแหน่ง : Technical Artist / Programmer</div>
+                    <div class="text-xl text-[#080559]">เงินเดือน : 20,000 - 30,000 บาท</div>
+                    <div class="text-xl text-[#080559]">ประเภทงาน : งานประจำ</div>
+                    <div class="text-xl text-[#080559]">สถานที่ : กรุงเทพมหานคร</div>
+                    <div class="text-xl text-[#080559]">รายละเอียด : ต้องการผู้ที่มีความรู้ด้านการพัฒนาเว็บไซต์</div>
+                    <div class="text-xl text-[#080559]">ติดต่อ : 081-234-5678</div>
+                    <div class="flex justify-end">
+                        <a href="/jobsdetail.html"
+                            class="bg-[#080559] hover:bg-[#52508B] text-white rounded-lg px-3 py-2 mt-3 inline-block">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-[#ffffff] rounded-lg p-3 grid grid-cols-5 gap-12 drop-shadow-md" data-aos="fade-left"
+                data-aos-delay="100" data-aos-duration="1000">
+                <div class="col-span-2 flex items-center">
+                    <div>
+                        <img src="/assets/image/joke.png" alt="logo">
+                    </div>
+                </div>
+                <div class="col-span-3">
+                    <div class="text-2xl font-bold text-[#080559] font-bold underline underline-offset-4 mb-3">Joke
+                    </div>
+                    <div class="text-xl text-[#080559]">ตำแหน่ง : FullStack Programmer</div>
+                    <div class="text-xl text-[#080559]">เงินเดือน : 20,000 - 30,000 บาท</div>
+                    <div class="text-xl text-[#080559]">ประเภทงาน : งานประจำ</div>
+                    <div class="text-xl text-[#080559]">สถานที่ : กรุงเทพมหานคร</div>
+                    <div class="text-xl text-[#080559]">รายละเอียด : ต้องการผู้ที่มีความรู้ด้านการพัฒนาโปรแกรม</div>
+                    <div class="text-xl text-[#080559]">ติดต่อ : 081-234-5678</div>
+                    <div class="flex justify-end">
+                        <a href="/jobsdetail.html"
+                            class="bg-[#080559] hover:bg-[#52508B] text-white rounded-lg px-3 py-2 mt-3 inline-block">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-[#ffffff] rounded-lg p-3 grid grid-cols-5 gap-12 drop-shadow-md" data-aos="fade-right"
+                data-aos-delay="100" data-aos-duration="1000">
+                <div class="col-span-2 flex items-center">
+                    <div>
+                        <img src="/assets/image/nocoffee.jpg" alt="logo">
+                    </div>
+                </div>
+                <div class="col-span-3">
+                    <div class="text-2xl font-bold text-[#080559] font-bold underline underline-offset-4 mb-3">Nocoffee
+                    </div>
+                    <div class="text-xl text-[#080559]">ตำแหน่ง : FullStack Web Developer</div>
+                    <div class="text-xl text-[#080559]">เงินเดือน : 50,000 - 80,000 บาท</div>
+                    <div class="text-xl text-[#080559]">ประเภทงาน : งานประจำ</div>
+                    <div class="text-xl text-[#080559]">สถานที่ : กรุงเทพมหานคร</div>
+                    <div class="text-xl text-[#080559]">รายละเอียด : ต้องการผู้ที่มีความรู้ด้านการพัฒนาเว็บไซต์</div>
+                    <div class="text-xl text-[#080559]">ติดต่อ : 081-234-5678</div>
+                    <div class="flex justify-end">
+                        <a href="/jobsdetail.html"
+                            class="bg-[#080559] hover:bg-[#52508B] text-white rounded-lg px-3 py-2 mt-3 inline-block">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-[#ffffff] rounded-lg p-3 grid grid-cols-5 gap-12 drop-shadow-md" data-aos="fade-left"
+                data-aos-delay="100" data-aos-duration="1000">
+                <div class="col-span-2 flex items-center">
+                    <div>
+                        <img src="/assets/image/tomatoking.jpg" alt="logo">
+                    </div>
+                </div>
+                <div class="col-span-3">
+                    <div class="text-2xl font-bold text-[#080559] font-bold underline underline-offset-4 mb-3">
+                        TomatoKing</div>
+                    <div class="text-xl text-[#080559]">ตำแหน่ง : Front-End</div>
+                    <div class="text-xl text-[#080559]">เงินเดือน : 30,000 - 40,000 บาท</div>
+                    <div class="text-xl text-[#080559]">ประเภทงาน : งานประจำ</div>
+                    <div class="text-xl text-[#080559]">สถานที่ : กรุงเทพมหานคร</div>
+                    <div class="text-xl text-[#080559]">รายละเอียด : ต้องการผู้ที่มีความรู้ด้านการสร้างหน้าเว็บไซต์</div>
+                    <div class="text-xl text-[#080559]">ติดต่อ : 081-234-5678</div>
+                    <div class="flex justify-end">
+                        <a href="/jobsdetail.html"
+                            class="bg-[#080559] hover:bg-[#52508B] text-white rounded-lg px-3 py-2 mt-3 inline-block">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-[#ffffff] rounded-lg p-3 grid grid-cols-5 gap-12 drop-shadow-md" data-aos="fade-right"
+                data-aos-delay="100" data-aos-duration="1000">
+                <div class="col-span-2 flex items-center">
+                    <div>
+                        <img src="/assets/image/fatex.jpg" alt="logo">
+                    </div>
+                </div>
+                <div class="col-span-3">
+                    <div class="text-2xl font-bold text-[#080559] font-bold underline underline-offset-4 mb-3">FatEx
+                    </div>
+                    <div class="text-xl text-[#080559]">ตำแหน่ง : Back-end</div>
+                    <div class="text-xl text-[#080559]">เงินเดือน : 30,000 - 40,000 บาท</div>
+                    <div class="text-xl text-[#080559]">ประเภทงาน : งานประจำ</div>
+                    <div class="text-xl text-[#080559]">สถานที่ : กรุงเทพมหานคร</div>
+                    <div class="text-xl text-[#080559]">รายละเอียด : ต้องการผู้ที่มีความรู้ด้านการพัฒนาเว็บไซต์อย่ามืออาชีพ</div>
+                    <div class="text-xl text-[#080559]">ติดต่อ : 081-234-5678</div>
+                    <div class="flex justify-end">
+                        <a href="/jobsdetail.html"
+                            class="bg-[#080559] hover:bg-[#52508B] text-white rounded-lg px-3 py-2 mt-3 inline-block">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-[#ffffff] rounded-lg p-3 grid grid-cols-5 gap-12 drop-shadow-md" data-aos="fade-left"
+                data-aos-delay="100" data-aos-duration="1000">
+                <div class="col-span-2 flex items-center">
+                    <div>
+                        <img src="/assets/image/hell.jpg" alt="logo">
+                    </div>
+                </div>
+                <div class="col-span-3">
+                    <div class="text-2xl font-bold text-[#080559] font-bold underline underline-offset-4 mb-3">Hell
+                    </div>
+                    <div class="text-xl text-[#080559]">ตำแหน่ง : Ux/Ui</div>
+                    <div class="text-xl text-[#080559]">เงินเดือน : 20,000 - 30,000 บาท</div>
+                    <div class="text-xl text-[#080559]">ประเภทงาน : งานประจำ</div>
+                    <div class="text-xl text-[#080559]">สถานที่ : กรุงเทพมหานคร</div>
+                    <div class="text-xl text-[#080559]">รายละเอียด : ต้องการผู้ที่มีความรู้ด้านการออกแบบ</div>
+                    <div class="text-xl text-[#080559]">ติดต่อ : 081-234-5678</div>
+                    <div class="flex justify-end">
+                        <a href="/jobsdetail.html"
+                            class="bg-[#080559] hover:bg-[#52508B] text-white rounded-lg px-3 py-2 mt-3 inline-block">รายละเอียดเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="flex justify-center mt-10">
+            <a href="/jobs.html"
+                class="bg-[#080559] hover:bg-[#52508B] text-white rounded-lg px-3 py-2 mt-3 inline-block w-80 transition duration-300 ease-in-out text-center">ดูเพิ่มเติม</a>
+        </div>
+    </div>
+
+    <div class="custom-shape-divider-bottom-1695389968">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path
+                d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                class="shape-fill"></path>
+        </svg>
+    </div>
+    <div class="bg-[#E4F1FF]">
+        <div class="container mx-auto pt-10 pb-20">
+            <div class="text-center text-4xl text-[#080559]">คอร์สเรียนและสอบใบ certify</div>
+            <div class="swiper mySwiper mt-5">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="bg-[#ffffff] rounded-lg p-3 border-solid border-4 border-[#080559]"
+                            data-aos="flip-left" data-aos-delay="100" data-aos-duration="1000">
+                            <img src="/assets/image/python.jpg" alt="img" class="w-full h-auto rounded">
+                            <hr class="mt-5 mb-3">
+                            <div class="text-xl text-[#080559]">สร้างแอพพลิเคชั่นด้วยภาษา Python (Real-World Projects)
+                            </div>
+                            <div class="text-xl text-[#080559]">ราคา : 5,000 บาท</div>
+                            <div class="text-xl text-[#080559]">ระยะเวลา : 29.5 ชั่วโมง</div>
+                            <div class="text-xl text-[#080559]">ใบ certify : มี</div>
+                            <div class="flex justify-center">
+                                <a href="/coursedetail.html"
+                                    class="bg-[#080559] hover:bg-[#52508B] text-white rounded-lg px-3 py-2 mt-3 inline-block">รายละเอียดเพิ่มเติม</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="bg-[#ffffff] rounded-lg p-3 border-solid border-4 border-[#080559]"
+                            data-aos="flip-left" data-aos-delay="200" data-aos-duration="1000">
+                            <img src="/assets/image/php.jpg" alt="img" class="w-full h-auto rounded">
+                            <hr class="mt-5 mb-3">
+                            <div class="text-xl text-[#080559]">พัฒนาเว็บด้วย PHP PDO & MySQL (CRUD & Authentication)
+                            </div>
+                            <div class="text-xl text-[#080559]">ราคา : 3,500 บาท</div>
+                            <div class="text-xl text-[#080559]">ระยะเวลา : 11.5 ชั่วโมง</div>
+                            <div class="text-xl text-[#080559]">ใบ certify : มี</div>
+                            <div class="flex justify-center">
+                                <a href="/coursedetail.html"
+                                    class="bg-[#080559] hover:bg-[#52508B] text-white rounded-lg px-3 py-2 mt-3 inline-block">รายละเอียดเพิ่มเติม</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="bg-[#ffffff] rounded-lg p-3 border-solid border-4 border-[#080559]"
+                            data-aos="flip-left" data-aos-delay="300" data-aos-duration="1000">
+                            <img src="/assets/image/js.jpg" alt="img" class="w-full h-auto rounded">
+                            <hr class="mt-5 mb-3">
+                            <div class="text-xl text-[#080559]">พัฒนาเว็บด้วย JavaScript 40 Workshop (Building 40
+                                Projects)
+                            </div>
+                            <div class="text-xl text-[#080559]">ราคา : 5,500 บาท</div>
+                            <div class="text-xl text-[#080559]">ระยะเวลา : 12.5 ชั่วโมง</div>
+                            <div class="text-xl text-[#080559]">ใบ certify : มี</div>
+                            <div class="flex justify-center">
+                                <a href="/coursedetail.html"
+                                    class="bg-[#080559] hover:bg-[#52508B] text-white rounded-lg px-3 py-2 mt-3 inline-block">รายละเอียดเพิ่มเติม</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="bg-[#ffffff] rounded-lg p-3 border-solid border-4 border-[#080559]"
+                            data-aos="flip-left" data-aos-delay="400" data-aos-duration="1000">
+                            <img src="/assets/image/react.jpg" alt="img" class="w-full h-auto rounded">
+                            <hr class="mt-5 mb-3">
+                            <div class="text-xl text-[#080559]">พัฒนาเว็บด้วย React 15 Workshop (Building 15 Projects)
+                            </div>
+                            <div class="text-xl text-[#080559]">ราคา : 800 บาท</div>
+                            <div class="text-xl text-[#080559]">ระยะเวลา : 12.5 ชั่วโมง</div>
+                            <div class="text-xl text-[#080559]">ใบ certify : ไม่มี</div>
+                            <div class="flex justify-center">
+                                <a href="/coursedetail.html"
+                                    class="bg-[#080559] hover:bg-[#52508B] text-white rounded-lg px-3 py-2 mt-3 inline-block">รายละเอียดเพิ่มเติม</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="bg-[#ffffff] rounded-lg p-3 border-solid border-4 border-[#080559]"
+                            data-aos="flip-left" data-aos-delay="400" data-aos-duration="1000">
+                            <img src="/assets/image/ex.jpg" alt="img" class="w-full h-auto rounded">
+                            <hr class="mt-5 mb-3">
+                            <div class="text-xl text-[#080559]">พัฒนาเว็บด้วย JavaScript แบบ MERN Stack
+                            </div>
+                            <div class="text-xl text-[#080559]">ราคา : 1,800 บาท</div>
+                            <div class="text-xl text-[#080559]">ระยะเวลา : 14 ชั่วโมง</div>
+                            <div class="text-xl text-[#080559]">ใบ certify : ไม่มี</div>
+                            <div class="flex justify-center">
+                                <a href="/coursedetail.html"
+                                    class="bg-[#080559] hover:bg-[#52508B] text-white rounded-lg px-3 py-2 mt-3 inline-block">รายละเอียดเพิ่มเติม</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="bg-[#ffffff] rounded-lg p-3 border-solid border-4 border-[#080559]"
+                            data-aos="flip-left" data-aos-delay="400" data-aos-duration="1000">
+                            <img src="/assets/image/ts.jpg" alt="img" class="w-full h-auto rounded">
+                            <hr class="mt-5 mb-3">
+                            <div class="text-xl text-[#080559]">เจาะลึก TypeScript ตั้งแต่เริ่มต้นจนใช้งานจริง
+                            </div>
+                            <div class="text-xl text-[#080559]">ราคา : 1,800 บาท</div>
+                            <div class="text-xl text-[#080559]">ระยะเวลา : 12.5 ชั่วโมง</div>
+                            <div class="text-xl text-[#080559]">ใบ certify : มี</div>
+                            <div class="flex justify-center">
+                                <a href="/coursedetail.html"
+                                    class="bg-[#080559] hover:bg-[#52508B] text-white rounded-lg px-3 py-2 mt-3 inline-block">รายละเอียดเพิ่มเติม</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="bg-[#ffffff] rounded-lg p-3 border-solid border-4 border-[#080559]"
+                            data-aos="flip-left" data-aos-delay="400" data-aos-duration="1000">
+                            <img src="/assets/image/ai.jpg" alt="img" class="w-full h-auto rounded">
+                            <hr class="mt-5 mb-3">
+                            <div class="text-xl text-[#080559]">เรียนรู้ AI: Deep Learning ด้วย Python
+                            </div>
+                            <div class="text-xl text-[#080559]">ราคา : 3,400 บาท</div>
+                            <div class="text-xl text-[#080559]">ระยะเวลา : 25 ชั่วโมง</div>
+                            <div class="text-xl text-[#080559]">ใบ certify : มี</div>
+                            <div class="flex justify-center">
+                                <a href="/coursedetail.html"
+                                    class="bg-[#080559] hover:bg-[#52508B] text-white rounded-lg px-3 py-2 mt-3 inline-block">รายละเอียดเพิ่มเติม</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="bg-[#ffffff] rounded-lg p-3 border-solid border-4 border-[#080559]"
+                            data-aos="flip-left" data-aos-delay="400" data-aos-duration="1000">
+                            <img src="/assets/image/ex.jpg" alt="img" class="w-full h-auto rounded">
+                            <hr class="mt-5 mb-3">
+                            <div class="text-xl text-[#080559]">พัฒนาเว็บด้วย JavaScript แบบ MERN Stack V.2
+                            </div>
+                            <div class="text-xl text-[#080559]">ราคา : 5,800 บาท</div>
+                            <div class="text-xl text-[#080559]">ระยะเวลา : 50 ชั่วโมง</div>
+                            <div class="text-xl text-[#080559]">ใบ certify : มี</div>
+                            <div class="flex justify-center">
+                                <a href="/coursedetail.html"
+                                    class="bg-[#080559] hover:bg-[#52508B] text-white rounded-lg px-3 py-2 mt-3 inline-block">รายละเอียดเพิ่มเติม</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="bg-[#ffffff] rounded-lg p-3 border-solid border-4 border-[#080559]"
+                            data-aos="flip-left" data-aos-delay="400" data-aos-duration="1000">
+                            <img src="/assets/image/pai.jpg" alt="img" class="w-full h-auto rounded">
+                            <hr class="mt-5 mb-3">
+                            <div class="text-xl text-[#080559]">เรียนรู้ AI: Machine Learning ด้วย Python
+                            </div>
+                            <div class="text-xl text-[#080559]">ราคา : 1,700 บาท</div>
+                            <div class="text-xl text-[#080559]">ระยะเวลา : 19 ชั่วโมง</div>
+                            <div class="text-xl text-[#080559]">ใบ certify : มี</div>
+                            <div class="flex justify-center">
+                                <a href="/coursedetail.html"
+                                    class="bg-[#080559] hover:bg-[#52508B] text-white rounded-lg px-3 py-2 mt-3 inline-block">รายละเอียดเพิ่มเติม</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="bg-[#ffffff] rounded-lg p-3 border-solid border-4 border-[#080559]"
+                            data-aos="flip-left" data-aos-delay="400" data-aos-duration="1000">
+                            <img src="/assets/image/dj.jpg" alt="img" class="w-full h-auto rounded">
+                            <hr class="mt-5 mb-3">
+                            <div class="text-xl text-[#080559]">พัฒนาเว็บด้วย Django Framework (Real-World Projects)
+                            </div>
+                            <div class="text-xl text-[#080559]">ราคา : 1,000 บาท</div>
+                            <div class="text-xl text-[#080559]">ระยะเวลา : 12 ชั่วโมง</div>
+                            <div class="text-xl text-[#080559]">ใบ certify : ไม่มี</div>
+                            <div class="flex justify-center">
+                                <a href="/coursedetail.html"
+                                    class="bg-[#080559] hover:bg-[#52508B] text-white rounded-lg px-3 py-2 mt-3 inline-block">รายละเอียดเพิ่มเติม</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="bg-[#ffffff] rounded-lg p-3 border-solid border-4 border-[#080559]"
+                            data-aos="flip-left" data-aos-delay="400" data-aos-duration="1000">
+                            <img src="/assets/image/pygui.jpg" alt="img" class="w-full h-auto rounded">
+                            <hr class="mt-5 mb-3">
+                            <div class="text-xl text-[#080559]">สร้าง GUI Application ด้วย Python (Real-World Project)
+                            </div>
+                            <div class="text-xl text-[#080559]">ราคา : 1,300 บาท</div>
+                            <div class="text-xl text-[#080559]">ระยะเวลา : 15 ชั่วโมง</div>
+                            <div class="text-xl text-[#080559]">ใบ certify : ไม่มี</div>
+                            <div class="flex justify-center">
+                                <a href="/coursedetail.html"
+                                    class="bg-[#080559] hover:bg-[#52508B] text-white rounded-lg px-3 py-2 mt-3 inline-block">รายละเอียดเพิ่มเติม</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="bg-[#ffffff] rounded-lg p-3 border-solid border-4 border-[#080559]"
+                            data-aos="flip-left" data-aos-delay="400" data-aos-duration="1000">
+                            <img src="/assets/image/aws.jpg" alt="img" class="w-full h-auto rounded">
+                            <hr class="mt-5 mb-3">
+                            <div class="text-xl text-[#080559]">AWS Cloud เริ่มจาก 0 จนถึงสามารถนำไปใช้งานได้จริง
+                            </div>
+                            <div class="text-xl text-[#080559]">ราคา : 3,000 บาท</div>
+                            <div class="text-xl text-[#080559]">ระยะเวลา : 32 ชั่วโมง</div>
+                            <div class="text-xl text-[#080559]">ใบ certify : มี</div>
+                            <div class="flex justify-center">
+                                <a href="/coursedetail.html"
+                                    class="bg-[#080559] hover:bg-[#52508B] text-white rounded-lg px-3 py-2 mt-3 inline-block">รายละเอียดเพิ่มเติม</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+
+            <div class="flex justify-center mt-10">
+                <a href="/course.html"
+                    class="bg-[#080559] hover:bg-[#52508B] text-white rounded-lg px-3 py-2 mt-3 inline-block w-80 transition duration-300 ease-in-out text-center">ดูเพิ่มเติม</a>
+            </div>
+
+        </div>
+    </div>
+    <div class="custom-shape-divider-top-1695390418">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path
+                d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z"
+                class="shape-fill"></path>
+        </svg>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="/assets/js/main.js"></script>
+
+</body>
+
+</html>

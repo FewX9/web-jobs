@@ -1,0 +1,57 @@
+body {
+    font-family: 'Mitr', sans-serif;
+}
+
+.custom-shape-divider-top-1695324447 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1695324447 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 100px;
+}
+
+.custom-shape-divider-top-1695324447 .shape-fill {
+    fill: #E4F1FF;
+}
+
+.custom-shape-divider-bottom-1695389968 {
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1695389968 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 150px;
+}
+
+.custom-shape-divider-bottom-1695389968 .shape-fill {
+    fill: #E4F1FF;
+}
+
+.custom-shape-divider-top-1695390418 {
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1695390418 svg {
+    position: relative;
+    display: block;
+    width: calc(111% + 1.3px);
+    height: 109px;
+}
+
+.custom-shape-divider-top-1695390418 .shape-fill {
+    fill: #E4F1FF;
+}
